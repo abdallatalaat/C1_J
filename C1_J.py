@@ -1,7 +1,7 @@
 while True:
 
     try:
-        c1 = float(input("\n\nINPUT C1 Value: "))
+        c1 = float(input("\n\n\nINPUT C1 Value: "))
         try:
             r = 1/c1**2
             c_d = 1.25 * (1 - (1 - 4.48*r) ** 0.5)
@@ -10,7 +10,9 @@ while True:
             print("\nR= {:.4f}".format(r))
             print("\nc/d= {:.4f}".format(c_d))
 
-            if j > 0.826: j = 0.826
+            if j > 0.826:
+                j = 0.826
+                print("\nc/d is less than code minimum!")
             print("\nJ= {:.4f}".format(j))
         except: print("\nC1 value too small!")
 
