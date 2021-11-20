@@ -1,1 +1,1 @@
-C1_J
+# A small script for calculating J from C1
