@@ -1,3 +1,8 @@
+import os
+
+cmd = 'mode 30,40'
+os.system(cmd)
+
 while True:
 
     try:
